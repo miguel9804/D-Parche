@@ -8,32 +8,33 @@
     <title>Iniciar sesión</title>
 </head>
 <body>
-    <header>
+    <header id="baseS">
         <div>
-            <img src="imgs/user.png" alt="">
-            <h2>Iniciar Sesión</h2>
-        </div>
-        <div>
-            <img src="imgs/medellin.png" alt="">
-            <h4> ¡Bienvenido a D'Parche!</h4>
-            <h4>Estamos listos para ayudarte.</h4>
+            <div id="barra">
+                <img  src="imgs/user.png" alt="" id="imgUser"  class="pos">
+                <h2 id="posI1" class="pos">Iniciar Sesión</h2>
+            </div>
+            <img id="imgMedellin" class="pos" src="imgs/medellin2.jpg" alt="">
+            <h4 id="posI2"> ¡Bienvenido a D'Parche!
+                Estamos listos para ayudarte.
+            </h4>
            <form action="">
-               <label for="usuario"> Usuario:
-                   <input id="usuario" placeholder="Ingresa tu usuario" type="text">
+               <label id="userLabel" for="usuario" class="pos"> Usuario:
+                   <input id="usuario" class="pos"  placeholder="Ingresa tu usuario" type="text">
                </label>
-               <label for="contra"> Contraseña:
-                   <input id="contra" placeholder="Ingresa tu contraseña" type="password">
+               <label id="passLabel" for="contra" class="pos"> Contraseña:
+                   <input id="contra" class="pos" placeholder="Ingresa tu contraseña" type="password">
                </label>
            </form>
            <nav>
                <a href="home.html">
-                   <button type="button">
-                       <h4>Iniciar Sesión</h4>
+                   <button id="posIBtn1" class="pos" type="button">
+                       <h4 id="fontI1" >Iniciar Sesión</h4>
                    </button>
                </a>
                <a href="registro.html">
-                <button type="button">
-                    <h5>Registrarse</h5>
+                <button id="posIBtn2" class="pos" type="button">
+                    <h5 id="font2" >Registrarse</h5>
                 </button>
                </a>
            </nav>
