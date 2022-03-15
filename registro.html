@@ -8,27 +8,29 @@
     <title>Iniciar sesión</title>
 </head>
 <body>
-    <header>
+    <header id="baseS">
+        
         <div>
-            <img src="imgs/user.png" alt="">
-            <h2>Iniciar Sesión</h2>
-        </div>
-        <div>
-            <h4> Unete y no te quedes sin a dónde ir </h4>
+            <div id="barra">
+                <img src="imgs/user.png" alt="" id="imgUser"  class="pos">
+                <h2 id="posI1" class="pos">Registrarse</h2>
+            </div>
+            <h4 id="posR1" class="pos"> Únete y no te quedes sin <br>
+                a dónde ir </h4>
            <form action="">
-               <label for="email">Email:
+               <label id="emLabel" for="email" class="pos">Email:
                    <input id="email" placeholder="example@hotmail.com" type="email">
                </label>
-               <label for="usuario"> Usuario:
-                   <input id="usuario" placeholder="dparche_example123" type="text">
+               <label id="userL" class="pos" for="usuarioR"> Usuario:
+                   <input id="usuarioR" placeholder="dparche_example123" type="text">
                </label>
-               <label for="contra"> Contraseña:
-                   <input id="contra" placeholder="**************" type="password">
+               <label id="passR" class="pos" for="contraR"> Contraseña:
+                   <input id="contraR" placeholder="**************" type="password">
                </label>
-               <label for="rcontra"> Repetir Contraseña:
+               <label id="rpassR" class="pos" for="rcontra"> Repetir Contraseña:
                 <input id="rcontra" placeholder="**************" type="password">
             </label>
-            <label for="">
+            <label id="radio" class="pos" for="">
                 <input type="radio">
                 Acepto términos y condiciones
             </label>
@@ -36,8 +38,8 @@
            </form>
            <nav>
                <a href="iniciarsesion.html">
-                   <button type="button">
-                       <h4>Crear cuenta</h4>
+                   <button id="posRBtn" class="pos" type="button">
+                       <h4 id="fontI1">Crear cuenta</h4>
                    </button>
                </a>
            </nav>
