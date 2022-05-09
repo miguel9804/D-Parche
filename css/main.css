@@ -1,4 +1,3 @@
-/*Bienvenida*/
 #base{
     position: relative;
     width: 414px;
@@ -6,6 +5,10 @@
     margin:0 auto;
     overflow: hidden;
     border: 3px solid black;
+}
+
+/*Bienvenida*/
+.colorI{
     background-color: #36AAD9;
 }
 .pos{
@@ -16,7 +19,7 @@
     margin-top: 35px;
     margin-left: 94px;
     font-size: 55px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 #pos2{
     margin-top: 118px;
@@ -79,13 +82,7 @@
     color: white;
 }
 /*inciar sesion*/
-#baseS{
-    position: relative;
-    width: 414px;
-    height: 736px;
-    margin:0 auto;
-    overflow: hidden;
-    border: 3px solid black;
+.colorIn{
     background-color: #DCDCDC;
 }
 #barra{
@@ -260,4 +257,36 @@
     background: #920581;
     border-radius: 20px;
 }
+
+/*home*/
+
+.colorH{
+    background-color: #920581;
+}
+
+#menu{
+    position: absolute;
+    background-color: #36AAD9;
+    margin-top: 400px;
+    width: 414px;
+    height: 63px;
+    text-align:center;
+    display: flex;
+}
+.menuPos{
+    width: 10px;
+    margin-top: 11.5px;
+    height: 63px;
+    flex: 1 1 auto;
+}
+.menuTam{
+    width: 40px;
+    height: 40px;
+}
+
+#menuEl{
+    background-color: #920581;
+}
+
+
 
