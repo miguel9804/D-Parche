@@ -487,6 +487,7 @@
 
 #lugar1{
     position: absolute;
+    text-decoration: none;
     height: 100px;
     width: 370px;
     margin-left: 20px ;
@@ -494,9 +495,10 @@
 }
 
 .txtB{
-    text-decoration: none;
     font-size: 25px;
     font-weight: bold;
+    color: #920581;
+    text-shadow: 0px 5px 10px rgb(0, 0, 0);
 }
 
 #lugar1 .txtB{
@@ -522,6 +524,7 @@
 
 #lugar2{
     position: absolute;
+    text-decoration: none;
     height: 100px;
     width: 370px;
     margin-left: 20px ;
@@ -538,6 +541,7 @@
 }
 
 #lugar3{
+    text-decoration: none;
     position: absolute;
     height: 100px;
     width: 370px;
@@ -564,6 +568,179 @@
     text-align:center;
     display: flex;
 }
+
+/*Lugares*/
+
+#imgBar{
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    margin-top: 3px;
+    margin-left: 20%;
+}
+
+#postxtL{
+    position: absolute;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-left: 150px;
+    text-shadow: 0px 5px 8px rgb(0, 0, 0);
+}
+
+#imgL{
+    position: absolute;
+    width: 213px;
+    height: 215px;
+    border-radius: 20%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#desc{
+    position:absolute;
+    width: 163px;
+    height: 215px;
+    border-radius: 10%;
+    background-color: #D0CBCF;
+    border: 3px solid #707070;
+    margin-top: 10px;
+    margin-left: 230px;
+    font-size: 16px;
+    color: black;
+    overflow: hidden;
+}
+
+#desctxt{
+    width: 150px;
+    margin-left: 10px;
+}
+
+.btnL{
+    position: absolute;
+    display: flex;
+    width: 167px;
+    height: 42px;
+    border-radius: 20px;
+    background-color: #36AAD9;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#btnI{
+    margin-top: 245px;
+    margin-left: 35px;
+}
+#btnC{
+    margin-top: 305px;
+    margin-left: 35px;
+}
+
+.contS{
+    display: flex;
+    position: absolute;
+    width: 180px;
+    height: 47px;
+    border-radius: 20px;
+    background-color: #D0CBCF;
+    border: 3px solid #707070;
+    align-items: center;
+}
+
+#contPos{
+    margin-top: 270px;
+    margin-left: 220px;
+}
+
+.star{
+    width: 30px;
+    height: 30px;
+    flex: 1 1 auto;
+}
+
+.lineL{
+    background-color: #920581;
+    border: 1px solid  #920581;
+}
+
+#lineL1{
+    margin-top: 370px
+}
+
+#lineL2{
+    margin-top: 20px;
+    width: 355px;
+
+}
+#lineL3{
+    margin-top: 5px;
+    width: 355px;
+}
+
+#lineL4{
+    margin-top: 5px;
+    width: 355px;
+}
+
+.coment{
+    width: 355px;
+    height: 70px;
+    color: #707070;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+#coment1{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#coment2{
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.contS2{
+    display: flex;
+    width: 70px;
+    height: 19px;
+    align-items: center;
+}
+
+#contS2pos{
+    margin-top: -40px;
+    margin-left: 300px;
+
+}
+#contS2pos2{
+    margin-top: -40px;
+    margin-left: 300px;
+}
+
+.star2{
+    width: 19px;
+    height: 19px;
+    flex: 1 1 auto;
+}
+
+#menuL{
+    position: fixed;
+    background-color: #36AAD9;
+    margin-top: 28px;
+    width: 414px;
+    height: 63px;
+    text-align:center;
+    display: flex;
+}
+
+
+
+
 
 
 
