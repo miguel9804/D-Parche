@@ -4,40 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Mapa</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="imgs/zona.png" alt="">
-            <h1>Mapa</h1>
+    <header id="base" class="colorM">
+        <div id="posM1">
+            <img src="imgs/zona.svg" alt="" class="imgM">
+            <h1 class="txtM">MAPA</h1>
         </div>
         <div>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126910.79733190109!2d-75.66660433273829!3d6.268673330653136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428ef4e52dddb%3A0x722fd6c39270ac72!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1651460020196!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+            <div >
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4388.052624206015!2d-75.590664872071!3d6.240950737439652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a449e65a5f%3A0x8a72a6aa16e8819f!2sUniversidad%20Pontificia%20Bolivariana!5e0!3m2!1ses-419!2sco!4v1652123321604!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <form action="">
-            <label for="">
-                <input type="text" placeholder="Busca tu lugar">
-                <img src="imgs/buscar.png" alt="">
+        <form action="" id="posM2">
+            <label for="" >
+                <input type="text" placeholder="Busca tu lugar" id="labelH1">
+                <a href="buscador.html" id="labelImgM">
+                    <img src="imgs/buscar.svg" alt="" id="imgTam" >
+                </a> 
             </label>
         </form>
-        <nav>
-            <a href="">
-                <img src="imgs/buscarm.png" alt="">
+        <nav id="menuM">
+            <a href="mapa.html" id="menuEl" class="menuPos">
+                <img src="imgs/buscarm.svg" alt="" class="menuTam" >
             </a>
-            <a href="">
-                <img src="imgs/favorito.png" alt="">
+            <a href="buscador.html" class="menuPos">
+                <img src="imgs/favorito.svg" alt="" class="menuTam">
             </a>
-            <a href="">
-                <img src="imgs/home.png" alt="">
+            <a href="home.html" class="menuPos">
+                <img src="imgs/home.svg" alt="" class="menuTam">
+            </a>                    
+            <a href="lugar3.html" class="menuPos">
+                <img src="imgs/user.svg" alt="" class="menuTam">
             </a>
-            <a href="">
-                <img src="imgs/user.png" alt="">
-            </a>
-            <a href="">
-                <img src="imgs/settings.png" alt="">
+            <a href="lugar1.html" class="menuPos" >
+                <img src="imgs/settings.svg" alt="" class="menuTam">
             </a>
         </nav>
     </header>

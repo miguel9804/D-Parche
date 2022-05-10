@@ -4,50 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Buscador</title>
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-                <img src="imgs/back.png" alt="">
-            </div>
-            <form action="">
+    <header id="base" class="colorB">
+        <div id="posB1">
+            <form action="" >
                 <label for="">
-                    <input type="text" placeholder="Lugar">
-                    <a href="">
-                        <img src="imgs/buscar2.png" alt="">
+                    <div class="back" id="back1">
+                        <img src="imgs/back.svg" alt="" id="posImg">
+                    </div>
+                    <input type="text" placeholder="Lugar" id="posB2">
+                    <a href="" id="posB4">
+                        <img src="imgs/buscar2.svg" alt="" class="img">
                     </a>
                 </label>
             </form>
-            <div>
-                <img src="imgs/opciones.png" alt="">
+            <div id="posB5">
+                <img src="imgs/opciones.svg" alt="" class="img">
             </div>
         </div>
-        <div>
-            <img src="imgs/proveedor.jpg" alt="">
-            <h1>EL PROVEEDOR</h1>
-            <div>
-                <img src="imgs/back.png" alt="">
+        <a href="lugar1.html" id="lugar1">
+            <img src="imgs/proveedor.jpg" alt="" class="imgB">
+            <h1 class="txtB">EL PROVEEDOR</h1>
+            <div class="back" id="back2">
+                <img src="imgs/back.svg" alt="" class="imgBack">
             </div>
-        </div>
-        <hr>
-        <div>
-            <img src="imgs/molinos.jpg" alt="">
-            <h1>LOS MOLINOS</h1>
-            <div>
-                <img src="imgs/back.png" alt="">
+        </a>
+        <hr class="line" id="line1">
+        <a href="lugar2.html" id="lugar2">
+            <img src="imgs/molinos.jpg" alt="" class="imgB">
+            <h1 class="txtB">LOS MOLINOS</h1>
+            <div class="back" id="back3">
+                <img src="imgs/back.svg" alt="" class="imgBack">
             </div>
-        </div>
-        <hr>
-        <div>
-            <img src="imgs/lleras.jpg" alt="">
-            <h1>PARQUE LLERAS</h1>
-            <div>
-                <img src="imgs/back.png" alt="">
+        </a>
+        <hr class="line" id="line2">
+        <a href="lugar3.html" id="lugar3">
+            <img src="imgs/lleras.jpg" alt="" class="imgB">
+            <h1 class="txtB">PARQUE LLERAS</h1>
+            <div class="back" id="back4">
+                <img src="imgs/back.svg" alt="" class="imgBack">
             </div>
-        </div>
-        <hr>
+        </a>
+        <hr class="line">
+        <nav id="menuB">
+            <a href="mapa.html"  class="menuPos">
+                <img src="imgs/buscarm.svg" alt="" class="menuTam" >
+            </a>
+            <a href="buscador.html" class="menuPos">
+                <img src="imgs/favorito.svg" alt="" class="menuTam">
+            </a>
+            <a href="home.html" class="menuPos">
+                <img src="imgs/home.svg" alt="" class="menuTam">
+            </a>                    
+            <a href="lugar3.html" class="menuPos">
+                <img src="imgs/user.svg" alt="" class="menuTam">
+            </a>
+            <a href="lugar1.html" class="menuPos" >
+                <img src="imgs/settings.svg" alt="" class="menuTam">
+            </a>
+        </nav>
     </header>
 </body>
 </html>
