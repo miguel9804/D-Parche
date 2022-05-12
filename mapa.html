@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Mapa</title>
 </head>
-<body>
+<body class="pc">
     <header id="baseM" class="colorM">
+        <div class="name">
+            <H1 id="posH1">D'Parche</H1>
+        </div>
         <div id="posM1">
             <img src="imgs/zona.svg" alt="" class="imgM">
             <h1 class="txtM">MAPA</h1>
@@ -18,14 +21,17 @@
                 <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4388.052624206015!2d-75.590664872071!3d6.240950737439652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a449e65a5f%3A0x8a72a6aa16e8819f!2sUniversidad%20Pontificia%20Bolivariana!5e0!3m2!1ses-419!2sco!4v1652123321604!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <form action="" id="posM2">
-            <label for="" >
-                <input type="text" placeholder="Busca tu lugar" id="labelH1">
-                <a href="buscador.html" id="labelImgM">
-                    <img src="imgs/buscar.svg" alt="" id="imgTam" >
-                </a> 
-            </label>
-        </form>
+        <div class="act">
+            <form action="" id="posM2">
+                <label for="" >
+                    <input type="text" placeholder="Busca tu lugar" id="labelH1">
+                    <a href="buscador.html" id="labelImgM">
+                        <img src="imgs/buscar.svg" alt="" id="imgTam" >
+                    </a> 
+                </label>
+            </form>
+        </div>
+     
         <nav id="menuM">
             <a href="mapa.html" id="menuEl" class="menuPos">
                 <img src="imgs/buscarm2.svg" alt="" class="menuTam" >
