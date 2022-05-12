@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="116.657" height="119" viewBox="0 0 116.657 119">
-  <g id="noun_hobbies_3683684" transform="translate(0 -32)">
+<svg xmlns="http://www.w3.org/2000/svg" width="109.12" height="105.517" viewBox="0 0 109.12 105.517">
+  <g id="noun_hobbies_3683684" transform="translate(-7.537 -32)">
     <path id="Trazado_100" data-name="Trazado 100" d="M358.223,62.47A52.611,52.611,0,0,0,342.231,51.4L340.7,54.839a49,49,0,0,1,14.838,10.269Z" transform="translate(-260.455 -14.831)" fill="#fff"/>
     <path id="Trazado_101" data-name="Trazado 101" d="M74.594,54.839,73.063,51.4A53.051,53.051,0,0,0,44.8,82.019l3.556,1.248A49.12,49.12,0,0,1,74.594,54.839Z" transform="translate(-34.248 -14.831)" fill="#fff"/>
     <path id="Trazado_102" data-name="Trazado 102" d="M59.986,343.865A49.241,49.241,0,0,1,48.256,325.4L44.7,326.648a53.038,53.038,0,0,0,12.624,19.9Z" transform="translate(-34.172 -224.296)" fill="#fff"/>
@@ -26,7 +26,5 @@
     <path id="Trazado_113" data-name="Trazado 113" d="M316.177,345.109v-4.875a1.907,1.907,0,0,0-.542-1.343l-3.768-3.768a1.891,1.891,0,0,0-2.661,0l-5.982,5.982a1.891,1.891,0,0,0,0,2.661l3.768,3.768a1.867,1.867,0,0,0,1.342.542h4.875l16.558,16.558a2.115,2.115,0,0,0,2.991-2.991Z" transform="translate(-231.386 -231.31)" fill="#fff"/>
     <rect id="Rectángulo_92" data-name="Rectángulo 92" width="10.316" height="3.768" transform="matrix(0.406, -0.914, 0.914, 0.406, 109.024, 53.852)" fill="#fff"/>
     <rect id="Rectángulo_93" data-name="Rectángulo 93" width="4.122" height="3.768" transform="matrix(0.406, -0.914, 0.914, 0.406, 105.674, 61.382)" fill="#fff"/>
-    <text id="Created_by_Wichai_Wi" data-name="Created by Wichai Wi" transform="translate(0 148)" fill="#fff" font-size="1" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Created by Wichai Wi</tspan></text>
-    <text id="from_the_Noun_Project" data-name="from the Noun Project" transform="translate(0 150)" fill="#fff" font-size="1" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">from the Noun Project</tspan></text>
   </g>
 </svg>
