@@ -15,6 +15,9 @@
     .name{
         display: none;
     }
+    #activo2{
+        display: none;
+    }
     #baseI{
         position: relative;
         width: 414px;
@@ -835,6 +838,9 @@
         display: none;
     }
     .name{
+        display: none;
+    }
+    #activo2{
         display: none;
     }
     #baseI{
@@ -1921,6 +1927,10 @@
         background: #920581;
         border-radius: 20px;
     }
+    #posLetras{
+        margin-top: 10px;
+
+    }
     /*registro*/
 
     #baseR{
@@ -2225,11 +2235,16 @@
     }
      /*Lugares*/
 
+    
+    #activo1{
+        display: none;
+    }
+
      #baseL{
         position: absolute;
         width: 100%;
         height: 1000px;
-        background-color: #DCDCDC;
+        background-color: #ffffff;
     } 
 
     #baseL #barra{
